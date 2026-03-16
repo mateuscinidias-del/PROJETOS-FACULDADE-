@@ -1,0 +1,109 @@
+body{
+    background-color: black;
+}
+
+.Titulo{
+    border: 1px solid;
+    background-color: rgb(255, 255, 255);
+}
+.Titulo:hover{
+    border: 1px solid;
+    border-color: rgb(70, 69, 69);
+    background-color: rgb(70, 69, 69);
+    transition: 2s;
+}
+
+h1{ 
+    color: rgb(0, 0, 0);
+    font-size: 350%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+h2{
+    color: white;
+    font-size: 120%;
+    font-style: oblique;
+    font-weight: 300;
+}
+hr{
+    background-color:white ;
+}
+p{
+    color:rgb(0, 0, 0);
+    font-size: 110%;
+    font-style: oblique;
+    margin: 0;
+    line-height: 1;
+    width: 400px;
+}
+p:hover{
+    color:white;
+    font-size: 110%;
+    font-style: oblique;
+    margin: 0;
+    line-height: 1;
+    width: 400px;
+    transition: 1s;
+}
+
+
+.imagem{
+    border: 3px solid;
+    width: 485px;
+    margin-right: 120px;
+    height: auto;
+    border-color: white;
+}
+
+.imagem:hover{
+    border: 3px solid;
+    border-color: rgb(70, 69, 69);
+    transition: 2s;
+}
+.lado1{ 
+    display: flex;
+    align-items: center;
+    padding: 80px;
+    border-radius: 500px;
+    border-color: white;
+}
+.caixa{
+   width: 400px;
+   background: rgb(255, 254, 254);
+   padding: 50px;
+   border-radius: 20px;
+}
+.caixa:hover{
+   width: 400px;
+   background: rgb(70, 69, 69);
+   padding: 50px;
+   border-radius: 20px;
+   transition: 2s;
+}
+.imagem2 {
+  position: absolute;
+  top: 200px;   
+  right: 205px; 
+  width: 300px;
+  border: 3px solid;
+  border-color: white;
+}
+.imagem2:hover{
+    border: 3px solid;
+    border-color: rgb(70, 69, 69);
+    transition: 2s;
+}
+.imagem3{
+  position: absolute; 
+  top: 625px;          
+  right: 205px;        
+  width: 300px;  
+  border: 3px solid; 
+  border-color: white;    
+}
+.imagem3:hover{
+    border: 3px solid;
+    border-color: rgb(70, 69, 69);
+    transition: 2s;
+}
+
